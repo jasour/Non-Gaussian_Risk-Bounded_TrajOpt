@@ -12,10 +12,13 @@ uncertain obstacles. The uncertain obstacle can be of arbitrary shape, can defor
 
 # 2. Existing Methods
 
-Existing approaches to address risk bounded trajectory optimization problems are limited to particular classes of models and uncertainties such as Gaussian
-linear problems.
+Existing approaches to address risk bounded trajectory optimization problems either are limited to to particular classes of models and uncertainties such as Gaussian linear problems or rely on sampling-based methods.
 
 
+![myImage](https://github.com/jasour/Non-Gaussian_Risk-Bounded_TrajOpt/blob/main/Animations/Uncertainty_Propagation.gif)
+[<ins>Left</ins>: *Sampling-based representation of uncertainties*] Sampling-based methods use a large number of uncertainty samples in the planning process; Hence, they are computationally expensive and cannot guarantee the safety of the original uncertain system.
+[<ins>Middle</ins>: *Gaussian approximation of uncertainties*] Gaussian linear methods use linearized models and Gaussian approximation of the uncertainties and therefore they cannot guarantee the safety of the original uncertain system.
+[<ins>Right</ins>: *Non-Gaussian uncertainties*] We use nonlinear stochastic models where uncertainties are not necessarily Gaussian and generate plans with guaranteed bounded risk.
 
 # 3. Our Approach
 
