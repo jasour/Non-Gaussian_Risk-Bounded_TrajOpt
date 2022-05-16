@@ -29,6 +29,9 @@ constraints on the moments of state probability distributions. Finally, we solve
 
 **3.2. Probabilistic Constraints**
 
+![myImage](https://github.com/jasour/Non-Gaussian_Risk-Bounded_TrajOpt/blob/main/Animations/Approach.png)
+
+<img src="https://github.com/jasour/Non-Gaussian_Risk-Bounded_TrajOpt/blob/main/Animations/Approach.png" width="500" height="700">
 ---
 
 # Background Information
