@@ -29,9 +29,9 @@ Existing approaches to address risk bounded trajectory optimization problems eit
 To address the risk bounded trajectory optimization problem, we first formulate the problem as an optimization problem with stochastic dynamics equations and chance constraints. We then convert probabilistic constraints and stochastic dynamics constraints on random variables into a set of deterministic
 constraints on the moments of state probability distributions. Finally, we solve the resulting deterministic optimization problem using nonlinear optimization solvers and get a sequence of control inputs.
 
-**3.1. Uncertainty Propagation**
+**3.1.** [Uncertainty Propagation](https://github.com/jasour/Non-Gaussian_Risk-Bounded_TrajOpt/tree/main/Uncertainty%20Propagation) 
 
-**3.2. Probabilistic Constraints**
+**3.2.** [Probabilistic Constraints](https://github.com/jasour/Non-Gaussian_Risk-Bounded_TrajOpt/tree/main/Probabilistic%20Constraints) 
 
 <p align="center">
   <img src="https://github.com/jasour/Non-Gaussian_Risk-Bounded_TrajOpt/blob/main/Animations/Approach.png" width="600" height="700">
