@@ -12,7 +12,7 @@ uncertain obstacles. The uncertain obstacle can be of arbitrary shape, can defor
 
 # 2. Existing Methods
 
-Existing approaches to address risk bounded trajectory optimization problems either are limited to to particular classes of models and uncertainties such as Gaussian linear problems or rely on sampling-based methods.
+Existing approaches to address risk bounded trajectory optimization problems either are limited to particular classes of models and uncertainties such as Gaussian linear problems or rely on sampling-based methods.
 
 
 ![myImage](https://github.com/jasour/Non-Gaussian_Risk-Bounded_TrajOpt/blob/main/Animations/Uncertainty_Propagation.gif)
@@ -25,7 +25,7 @@ Existing approaches to address risk bounded trajectory optimization problems eit
 To address the risk bounded trajectory optimization problem, we first formulate the problem as an optimization problem with stochastic dynamics equations and chance constraints. We then convert probabilistic constraints and stochastic dynamics constraints on random variables into a set of deterministic
 constraints on the moments of state probability distributions. Finally, we solve the resulting deterministic optimization problem using nonlinear optimization solvers and get a sequence of control inputs.
 
-**3.1. Uncertinty Propagation**
+**3.1. Uncertainty Propagation**
 
 **3.2. Probabilistic Constraints**
 
