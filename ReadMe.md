@@ -6,10 +6,12 @@
 
 # 1. Risk Bounded Trajectory Planning
 
-We address the risk bounded trajectory optimization problem of stochastic nonlinear robotic systems. More precisely, we consider the motion planning problem in which the robot has stochastic nonlinear dynamics and uncertain initial locations, and the environment contains multiple dynamic
+We address the risk bounded trajectory optimization problem of stochastic nonlinear robotic systems. More precisely, we consider the motion planning problem in which the robot has stochastic nonlinear dynamics and uncertain initial states, and the environment contains multiple dynamic
 uncertain obstacles. The uncertain obstacle can be of arbitrary shape, can deform over time, can move, and has arbitrary uncertainty. The goal is to plan a sequence of control inputs for the robot to navigate to the target while bounding the probability of colliding with obstacles. In this paper, we deal with stochastic nonlinear models, nonlinear safety constraints, and arbitrary probabilistic uncertainties (without the need for linearization or Gaussian approximation), the most general setting ever considered.
 
 ![myImage](https://github.com/jasour/Non-Gaussian_Risk-Bounded_TrajOpt/blob/main/Animations/RiskBounded_Trajectory.gif)
+
+
 
 
 # 2. Existing Methods
